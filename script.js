@@ -54,9 +54,9 @@ function generatePassword() {
   }
   console.log(pwdChars);
 
-  // Empty string to be filled based on for loop selecting random characters from the array
   var randomPwd = "";
 
+  //generate password using updated pwdChars array
   for (var i = 0; i < pwdLength; i++) {
     randomPwd = randomPwd + pwdChars[Math.floor(Math.random() * pwdChars.length)];
     console.log(randomPwd);
@@ -64,7 +64,7 @@ function generatePassword() {
   return randomPwd;
 }
 
-// write password to the #password input
+// write password to the #password id box
 function writePassword() {
   var password = generatePassword();
   var passwordText = password;
