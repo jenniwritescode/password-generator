@@ -6,9 +6,9 @@ When user clicks the "Generate Password" button, they are prompted for password 
 
 If the user picks a password length that is not between 8 and 128 characters, it will prompt the user to try again until they choose any appropriate length.
 
-If the user does not pick one of the criteria to include in their password, it will prompt the user to go through the choices again and pick at least one.
+If the user does not pick at least one of the criteria to include in their password, it will prompt the user to go through the choices again.
 
-After selecting at leat one criteria, a random password will be generated and display in the box on the page.
+After selecting at least one criteria, a random password will be generated and display in the box on the page.
 
 ---
 
