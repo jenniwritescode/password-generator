@@ -34,7 +34,7 @@ function generatePassword() {
     useUpperCase = confirm("Click OK to confirm if you want to use uppercase letters in your password.");
     useLowerCase = confirm("Click OK to confirm if you want to use lowercase letters in your password.");
   }
-  // assign random values to password based on criteria chosen
+  // create single array for password characters based on user choices
   var pwdChars = []
 
   if (useNumChars) {
